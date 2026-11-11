@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a503f">
+  <meta name="description" content="A bilingual lost and found community for the University of Dhaka.">
+  <title>DU Lost & Found · ঢাকা বিশ্ববিদ্যালয় হারানো-প্রাপ্তি</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a503f'/%3E%3Cpath d='M18 18h14a14 14 0 1 1 0 28H18zm8 7v14h6a7 7 0 0 0 0-14z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content · মূল অংশে যান</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="DU Lost and Found home">
+        <span class="brand-mark" aria-hidden="true">DU</span>
+        <span class="brand-copy"><strong>DU Lost &amp; Found</strong><small>ঢাকা বিশ্ববিদ্যালয় হারানো-প্রাপ্তি</small></span>
+      </a>
+      <button class="menu-toggle icon-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#feed" data-nav="feed" data-i18n="navBrowse">Browse items</a>
+        <a href="#post" data-nav="post" data-auth-only data-i18n="navPost">Report an item</a>
+        <a href="#dashboard" data-nav="dashboard" data-auth-only data-i18n="navDashboard">My dashboard</a>
+        <a href="#admin" data-nav="admin" data-admin-only hidden data-i18n="navAdmin">Moderation</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button language-toggle" type="button" data-language aria-label="Switch language">বাংলা</button>
+        <button class="icon-button" type="button" data-theme aria-label="Toggle dark mode">◐</button>
+        <a class="button button-small button-quiet" href="#login" data-guest-only data-i18n="navLogin">Sign in</a>
+        <button class="button button-small button-quiet" type="button" data-logout hidden data-i18n="navLogout">Sign out</button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-scrim" data-menu-close></div>
+  <div class="notice-wrap" aria-live="polite" aria-atomic="true" id="notice"></div>
+  <main id="main-content" class="page-shell" tabindex="-1">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">A safer way to reunite what matters · প্রিয় জিনিস ফিরে পাওয়ার নিরাপদ উপায়</p>
+        <h1>Lost something on campus? Let’s find its way home.<br>ক্যাম্পাসে কিছু হারিয়েছেন? খুঁজে ফিরিয়ে আনি।</h1>
+        <p>A community-powered lost and found for the University of Dhaka.<br>ঢাকা বিশ্ববিদ্যালয়ের সবার জন্য হারানো-প্রাপ্তি প্ল্যাটফর্ম।</p>
+        <div class="hero-actions">
+          <a class="button" href="#feed">Browse found items · প্রাপ্ত আইটেম দেখুন <span aria-hidden="true">→</span></a>
+          <a class="button button-outline" href="#register">Report an item · আইটেম রিপোর্ট করুন</a>
+        </div>
+      </div>
+    </section>
+    <section class="trust-strip" aria-label="Community principles · কমিউনিটির নীতি">
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">◇</span><div><strong>Privacy first · গোপনীয়তা সবার আগে</strong><span>Contact stays hidden until a claim is approved. · দাবি অনুমোদন না হওয়া পর্যন্ত যোগাযোগ গোপন থাকে।</span></div></div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">⌖</span><div><strong>Across the whole campus · পুরো ক্যাম্পাসজুড়ে</strong><span>Search halls, faculties, gates, and shared spaces. · হল, অনুষদ, গেট ও সবার ব্যবহারের জায়গায় খুঁজুন।</span></div></div>
+    </section>
+    <noscript>
+      <section class="panel" style="margin-top:1.5rem">
+        <strong>JavaScript is required to search and manage reports. · অনুসন্ধান ও রিপোর্ট পরিচালনার জন্য JavaScript চালু করুন।</strong>
+      </section>
+    </noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><strong>DU Lost &amp; Found</strong><span>ঢাকা বিশ্ববিদ্যালয় হারানো-প্রাপ্তি</span></div>
+      <p data-i18n="footerNotice">Protect your privacy. Never post an ID number or a full address.</p>
+      <span>Built for the University of Dhaka community · ঢাকা বিশ্ববিদ্যালয় সম্প্রদায়ের জন্য</span>
+    </div>
+  </footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
